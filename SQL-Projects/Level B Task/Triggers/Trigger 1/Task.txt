@@ -1,0 +1,7 @@
+If someone cancels an order in northwind database, then you want to delete that
+order from the Orders table. But you will not be able to delete that Order before
+deleting the records from Order Details table for that particular order due to
+referential integrity constraints. Create an Instead of Delete trigger on Orders table
+so that if some one tries to delete an Order that trigger gets fired and that trigger
+should first delete everything in order details table and then delete that order from
+the Orders table

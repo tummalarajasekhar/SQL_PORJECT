@@ -1,0 +1,5 @@
+Create a procedure DeleteOrderDetails that takes OrderlD and ProductID and
+deletes that from Order Details table. Your procedure should validate parameters.
+It should return an error code (-1) and print a message if the parameters are
+invalid. Parameters are valid if the given order ID appears in the table and if the
+given product ID appears in that order.

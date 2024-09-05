@@ -1,0 +1,9 @@
+Create a view vwCustomerOrders which returns CompanyName, OrderlD OrderDate,
+ProductID, ProductName, Quantity, UnitPrice, Quantity * od UnitPrice
+Create a copy of the above view and modify it so that it only returns the above information
+for orders that were placed yesterday
+Use a CREATE VIEW statement to create a view called MyProducts. Your view should
+contain the ProductID, ProductName, QuantityPerUnit and UnitPrice columns from the
+Products table. It should also contain the CompanyName column from the Suppliers table
+and the CategoryName column from the Categories table. Your view should only contain
+products that are not discontinued.

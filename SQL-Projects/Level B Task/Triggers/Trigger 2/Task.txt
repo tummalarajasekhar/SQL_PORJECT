@@ -1,0 +1,6 @@
+When an order is placed for X units of product Y, we must first check the Products
+table to ensure that there is sufficient stock to fill the order. This trigger will operate
+on the Order Details table. If sufficient stock exists, then fill the order and
+decrement X units from the UnitsInStock column in Products. If insufficient stock
+exists, then refuse the order (i.e. do not insert it) and notify the user that the order
+could not be filled because of insufficient stock.

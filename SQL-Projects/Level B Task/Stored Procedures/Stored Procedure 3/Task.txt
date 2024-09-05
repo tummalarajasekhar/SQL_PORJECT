@@ -1,0 +1,5 @@
+Create a procedure GetOrderDetails that takes OrderlD as input parameter and
+returns all the records for that OrderlD. If no records are found in Order Details
+table, then it should print the line: "The OrderID XXXX does not exits", where
+XXX should be the OrderID entered by user and the procedure should RETURN
+the value 1.

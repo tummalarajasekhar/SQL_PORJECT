@@ -1,0 +1,3 @@
+Create a function that takes an input parameter type datetime and returns the date
+in the format MM/DD/YYYY. For example if I pass in '2006-11-21 23:34:05.920',
+the output of the functions should be 11/21/2006

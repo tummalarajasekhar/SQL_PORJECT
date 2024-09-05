@@ -1,0 +1,2 @@
+Create a function that takes an input parameter type datetime and returns the date
+in the format YYYYMMDD

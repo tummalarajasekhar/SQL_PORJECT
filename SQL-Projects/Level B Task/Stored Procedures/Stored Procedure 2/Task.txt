@@ -1,0 +1,9 @@
+Create a procedure UpdateOrderDetails that takes OrderlD, ProductID, UnitPrice,
+Quantity, and discount, and updates these values for that ProductID in that Order.
+All the parameters except the OrderlD and ProductID should be optional so that if
+the user wants to only update Quantity s/he should be able to do so without
+providing the rest of the values. You need toalso make sure that if any of the values
+are being passed in as NULL, then you want to retain the original value instead of
+overwriting it with NULL. To accomplish this, look for the ISNULLO function in
+google or sql server books online. Adjust the UnitsInStock value in products table
+accordingly.
